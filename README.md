@@ -10,4 +10,5 @@ progress.
 <br/>
 <br/>
 - Stack: Firestore as database, Firebase storage for filestorage, C# .NET backend and React frontend
+- Rest API to get access to data layer and handle employee information from the company. Repository pattern
 <br/>
