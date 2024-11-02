@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .email-header {
+            background-color: #28a745;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .email-body {
+            padding: 20px;
+            color: #333;
+        }
+
+            .email-body h1 {
+                color: #28a745;
+            }
+
+            .email-body p {
+                line-height: 1.6;
+            }
+
+        .user-details {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #28a745;
+            margin: 20px 0;
+        }
+
+            .user-details p {
+                margin: 5px 0;
+            }
+
+        .email-footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+        }
+
+        .order-btn {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <h1>New User Added to the System</h1>
+        </div>
+        <div class="email-body">
+            <h2>Hello {{ManagerName}},</h2>
+            <p>We wanted to inform you that a new user has been successfully added to the system. Please take the necessary action to order a computer for the user. Below are the details of the new user:</p>
+
+            <div class="user-details">
+                <p><strong>Name:</strong> {{UserName}}</p>
+                <p><strong>Role:</strong> {{UserRole}}</p>
+                <p><strong>Start Date:</strong> {{StartDate}}</p>
+            </div>
+
+            <p>To place the order for the user's computer, please use the following link:</p>
+            <a href="https://www.visma.com/" class="order-btn">Order Computer</a>
+        </div>
+        <div class="email-footer">
+            <p>If you need further assistance, please reach out to the IT department or the HR team.</p>
+            <p>&copy; 2024 Visma enterprise. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
