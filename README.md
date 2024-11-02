@@ -1,5 +1,5 @@
 # Onboarding
-Application to help the companies make thir onboarding of new employees more effective. 
+Application to help the companies make their onboarding of new employees more effective. 
 <br/>
 Management system where team-manager, IT and HR can setup tasks on the new employees page to handle. 
 <br/>
