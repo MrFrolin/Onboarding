@@ -2,6 +2,8 @@
 
 This project was developed during an internship to streamline and automate the onboarding process for new employees. The system simplifies task management by enabling managers to define preset and custom tasks for new employees.
 
+![ShowcaseGIF](https://github.com/MrFrolin/Onboarding/blob/master/OnboardingShowCaseGIF.gif)
+
 ## Key Features
 
 - **Task Assignment:** Managers can assign pre-defined or customized onboarding tasks for all/each employee.  
