@@ -1,6 +1,6 @@
 # Internship project: Onboarding
 
-This project was developed during an internship to streamline and automate the onboarding process for new employees. The system simplifies task management by enabling managers to define preset and custom tasks for new employees.
+This project was developed during an internship to automateand make the onboarding process more effective for new employees and managers. The system simplifies task management by enabling managers to define preset and custom tasks for new employees.
 
 ![ShowcaseGIF](https://github.com/MrFrolin/Onboarding/blob/master/OnboardingShowCaseGIF.gif)
 
