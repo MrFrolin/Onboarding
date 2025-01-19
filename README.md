@@ -18,9 +18,9 @@ By reducing manual effort, improving communication, and centralizing essential r
 
 **Frontend:** React, TailwindCSS
 
-**Backend:** C# (.NET) , RESTful APIs, OAuth2
+**Backend:** C# (.NET)
 
 **Database:** Firestore
 
-**Other:** OAuth2, Factory pattern, Repository pattern
+**Other:** OAuth2, RESTful APIs, Factory pattern, Repository pattern
 
